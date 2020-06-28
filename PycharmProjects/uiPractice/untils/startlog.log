@@ -1,0 +1,6 @@
+2020-04-23 11:31:55:520 - info: [Appium] Welcome to Appium v1.9.0
+2020-04-23 11:31:55:523 - info: [Appium] Non-default server args:
+2020-04-23 11:31:55:523 - info: [Appium]   address: 127.0.0.1
+2020-04-23 11:31:55:523 - info: [Appium]   log: startlog.log
+2020-04-23 11:31:55:523 - info: [Appium]   localTimezone: true
+2020-04-23 11:31:55:577 - error: uncaughtException: write EPIPE date=Thu Apr 23 2020 11:31:55 GMT+0800 (CST), pid=7324, uid=501, gid=20, cwd=/Users/xueqiu/PycharmProjects/uiPractice/untils, execPath=/Users/xueqiu/.nvm/versions/node/v8.11.3/bin/node, version=v8.11.3, argv=[/Users/xueqiu/.nvm/versions/node/v8.11.3/bin/node, /Users/xueqiu/.nvm/versions/node/v8.11.3/bin/appium, -a, 127.0.0.1, -p, 4723, --log, startlog.log, --local-timezone], rss=128671744, heapTotal=107008000, heapUsed=77335856, external=333283, loadavg=[2.73779296875, 3.28857421875, 2.89111328125], uptime=154691, trace=[column=11, file=util.js, function=_errnoException, line=992, method=null, native=false, column=14, file=net.js, function=WriteWrap.afterWrite, line=864, method=afterWrite, native=false], stack=[Error: write EPIPE,     at _errnoException (util.js:992:11),     at WriteWrap.afterWrite (net.js:864:14)]
