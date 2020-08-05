@@ -39,7 +39,7 @@ def diff_period(symbol,day):
                 'state': 0,
 
             }
-            url_post = 'http://rc.ssm.snowballfinance.com/internal/lightsnow/card/update.json'
+            url_post = 'http:****/internal/lightsnow/card/update.json'
             rqs = requests.post(url=url_post, headers=headers, data=body)
             print(rqs.text)
             get_nav()
@@ -56,7 +56,7 @@ def get_nav():
         'accept-encoding': 'br, gzip, deflate',
         'Cookie': 'u=1970552355; xq_a_token=XqTest04df0d006155d3d69c6e01106b0be706bf53f735'
     }
-    url_get = "https://api.xueqiu.com/snowpard/card/query.json?uid=3029025214"
+    url_get = "https://*****/snowpard/card/query.json?uid=3029025214"
     rqs1 = requests.get(url=url_get, headers=get_headers, timeout=1).json()
     print(rqs1)
 
@@ -89,7 +89,7 @@ def del_user(id_list):
             'id':sid,
             'uid':'3029025214'
               }
-        url_post = "http://rc.ssm.snowballfinance.com/internal/lightsnow/card/delete.json"
+        url_post = "http://****/internal/lightsnow/card/delete.json"
         rqs1 = requests.post(url=url_post, headers=post_headers,data=body)
 
 
